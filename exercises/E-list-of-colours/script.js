@@ -18,8 +18,10 @@ function listOfColours(colours) {
       parEl.textContent = "You have selected: " + evt.target.value;
       parEl.style.color = evt.target.value;
       contentEl.appendChild(parEl);
-      console.log(evt.target.value);
+      // console.log(evt.target.value);
     });
+
+    
 }
 
 const colours = ["red", "blue", "green", "yellow", "pink", "brown"];
